@@ -10,8 +10,7 @@ public class Constructor {
 
 		System.out.print("Enter Customer Id : ");
 		id = sc.nextInt();
-		sc.nextLine(); // consume newline
-
+		sc.nextLine(); 
 		System.out.print("Enter Customer Name : ");
 		name = sc.nextLine();
 
