@@ -7,17 +7,26 @@ public class Customer {
 		private String city;
 		public Customer()//default constructor
 		{
-			this.cid=101;
-			this.cname="Priya";
-			this.city="chennai";
+			System.out.println("Default constructor has been called ");
 		}
 		public Customer(int cid,String cname,String city)
 		//Parameterized constructor
 		{
+			this("unknown","puducherry");
 			this.cid=cid;
 			this.cname=cname;
 			this.city=city;
 		}
+		
+		public Customer(String cname,String city)
+		//Parameterized constructor
+		{
+		
+			this.cname=cname;
+			this.city=city;
+			System.out.println("Parameterized  constructor has been called ");
+		}
+		
 		public int getCid() {
 			return cid;
 		}
