@@ -1,4 +1,4 @@
-package dayfive.multilevelinheritance;
+package dayfive.multilevelinheritance.vechile;
 
 import java.sql.Date;
 
