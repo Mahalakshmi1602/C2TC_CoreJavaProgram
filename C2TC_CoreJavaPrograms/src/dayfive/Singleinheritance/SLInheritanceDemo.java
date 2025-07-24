@@ -1,4 +1,4 @@
-package dayfive.singleinheritance;
+package dayfive.Singleinheritance;
 
 public class SLInheritanceDemo {
 
