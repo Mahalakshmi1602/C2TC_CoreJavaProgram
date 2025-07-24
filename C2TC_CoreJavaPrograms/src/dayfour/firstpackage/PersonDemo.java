@@ -1,4 +1,4 @@
-package dayfour;
+package dayfour.firstpackage;
 
 import java.util.Scanner;
 
