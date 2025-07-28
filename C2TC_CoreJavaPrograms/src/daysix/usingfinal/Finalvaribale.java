@@ -5,7 +5,7 @@ public class Finalvaribale {
 	final int x = 100;
 
 	
-	final static int Y;
+	static int Y;
 
 	
 	final static int Z = 10;
@@ -13,7 +13,7 @@ public class Finalvaribale {
 	
 	void change() {
 		//x = 30; 
-		//Y = 200;
+		Y = 200;
 	}
 
 	@Override
@@ -23,7 +23,7 @@ public class Finalvaribale {
 
 	
 	static {
-		Y = 20;
+		//Y = 20;
 		//Z = 100;
 		System.out.println("Value of Y: " + Y);
 	}
