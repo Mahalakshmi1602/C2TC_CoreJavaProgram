@@ -8,7 +8,7 @@ package dayeight.interfaces.implementinginterfaces;
 		     Bank bank = new BankImp();
 
 		     
-		     Account account = new Account(123456, "Mihir", 155000, bank);
+		     Account account = new Account(123456, "Maha", 155000, bank);
 
 		     
 		     account.deposit(2000);
