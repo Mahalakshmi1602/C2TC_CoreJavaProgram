@@ -1,4 +1,4 @@
-package interfaceexamples1;
+package interfaceAssignment;
 
 public class Trends implements Dmart{
 

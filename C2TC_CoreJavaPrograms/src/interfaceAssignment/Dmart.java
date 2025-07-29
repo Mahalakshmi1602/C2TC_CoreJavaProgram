@@ -1,4 +1,4 @@
-package interfaceexamples1;
+package interfaceAssignment;
 
 public interface Dmart {
 
