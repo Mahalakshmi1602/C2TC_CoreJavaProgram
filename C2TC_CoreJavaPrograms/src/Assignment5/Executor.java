@@ -1,15 +1,35 @@
 package Assignment5;
 
+import java.util.Scanner;
+
 public class Executor {
 
-	 public static void main(String[] args) {
-	        AirIndia ai = new AirIndia(6, 6000.0);
-	        ai.display();
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-	        KingFisher kf = new KingFisher(4, 1500.0);
-	        kf.display();
+        int choice = Integer.parseInt(sc.nextLine());
+        int hours = Integer.parseInt(sc.nextLine());
+        double costPerHour = Double.parseDouble(sc.nextLine());
 
-	        Indigo ind = new Indigo(3, 1800.0);
-	        ind.display();
-	    }
+        Airface airfare = null;
+
+        switch (choice) {
+            case 1:
+                airfare = new AirIndia(hours, costPerHour);
+                break;
+            case 2:
+                airfare = new KingFisher(hours, costPerHour);
+                break;
+            case 3:
+                airfare = new Indigo(hours, costPerHour);
+                break;
+            default:
+                System.out.println("Invalid choice");
+                return;
+        }
+
+     
+        System.out.printf("%.2f\n", airfare.calculateAmount());
+        
+    }
 }
