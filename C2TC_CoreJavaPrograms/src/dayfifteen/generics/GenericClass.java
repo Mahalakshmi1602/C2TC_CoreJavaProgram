@@ -1,4 +1,4 @@
-package dayfifteen;
+package dayfifteen.generics;
 
 class GenericClass<T>
 {

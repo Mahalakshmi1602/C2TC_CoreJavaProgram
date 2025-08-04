@@ -1,4 +1,4 @@
-package dayfifteen;
+package dayfifteen.generics;
 
 public class MinMaxImpl<T extends Comparable<T>> implements MinMax<T> {
 	T[] values;

@@ -1,4 +1,4 @@
-package dayfifteen;
+package dayfifteen.generics;
 
 import java.util.List;
 

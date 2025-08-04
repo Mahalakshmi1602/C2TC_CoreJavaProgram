@@ -1,4 +1,4 @@
-package dayfifteen;
+package dayfifteen.generics;
 
 public interface MinMax<T extends Comparable<T>> {
 

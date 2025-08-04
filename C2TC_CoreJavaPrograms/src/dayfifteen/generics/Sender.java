@@ -1,4 +1,4 @@
-package dayfifteen;
+package dayfifteen.generics;
 
 public class Sender <T>{
 	private T message;
