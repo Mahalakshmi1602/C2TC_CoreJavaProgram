@@ -1,4 +1,4 @@
-package daysixteen;
+package daysixteen.queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -15,7 +15,6 @@ public class ArrayDequeDemo {
 		
 		arrayDeque.offer("F");
 
-		
 		arrayDeque.offerFirst("D");
 		
 		arrayDeque.offerLast("E");
