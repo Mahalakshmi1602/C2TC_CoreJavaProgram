@@ -1,7 +1,7 @@
 package dayeighteen.map;
 
 import java.util.*;
-import com.tnsif.dayeighteen.Student;
+import dayeighteen.Student;
 class HashMapDemo 
 {
 	public static void main(String args[]) 
